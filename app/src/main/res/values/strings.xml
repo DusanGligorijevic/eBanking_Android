@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">rs.raf.projekat1.Dusan_Gligorijevic_9319rn</string>
+    <string name="hint_fname" translatable="true">Unesite ime</string>
+    <string name="hint_lname" translatable="true">Unesite prezime</string>
+    <string name="hint_bank">Unesite ime banke</string>
+    <string name="hint_password">Unesite šifru</string>
+    <string name="btn_prijava">Prijava</string>
+    <string name="stanje">Stanje</string>
+    <string name="Unos">Unos</string>
+    <string name="Liste">Liste</string>
+    <string name="Profil">Profil</string>
+    <string name="Prihod">Prihod</string>
+    <string name="Rashod">Rashod</string>
+    <string name="Razlika">Razlika</string>
+    <string name="UnosPR">Unos novog prihoda ili rashoda</string>
+    <string name="Naslov">Naslov</string>
+    <string name="Kolicina">Kolicina</string>
+    <string name="Opis">opis</string>
+    <string name="DodajUListu">Dodaj u listu</string>
+    <string name="Prihodi">Prihodi</string>
+    <string name="Rashodi">Rashodi</string>
+    <string name="Podaci">Podaci o korisniku</string>
+    <string name="Profil_ime">Ime</string>
+    <string name="Profil_prezime">Prezime</string>
+    <string name="Profil_banka">Banka</string>
+    <string name="Profil_izmeni">Izmeni</string>
+    <string name="Profil_odjava">Odjava</string>
+    <string name="Izmena">Promena informacija</string>
+    <string name="Sacuvaj">Sacuvaj</string>
+    <string name="PR">Podaci o prihodu/rashodu</string>
+    <string name="Odustani">Odustani</string>
+    <string name="Novcanik">Novcanik sistem za studente RAF-a</string>
+    <string name="stanjeRacuna">Pregled ukupnog stanja racuna</string>
+
+    <string-array name="list">
+        <item>Prihod</item>
+        <item>Rashod</item>
+    </string-array>
+</resources>

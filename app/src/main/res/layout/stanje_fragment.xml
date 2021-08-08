@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealGridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stanje_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:layout_margin="10dp"
+    android:alignmentMode="alignBounds"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/stanje_textView"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_columnSpan="2"
+        android:text="@string/stanjeRacuna"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:text="@string/Prihod"
+        android:textAlignment="center"
+        android:id="@+id/prihod"
+        android:textColor="@color/green"
+        android:theme="@style/prihod"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/prihod_value"
+        android:textColor="@color/green"
+        android:theme="@style/prihod"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:id="@id/rashod"
+        android:textColor="@color/red"
+        android:text="@string/Rashod"
+        android:theme="@style/rashod"
+        android:textAlignment="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:textColor="@color/red"
+        android:id="@+id/rashod_value"
+        android:textAlignment="center"
+        android:theme="@style/rashod"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/razlika"
+        android:text="@string/Razlika"
+        android:theme="@style/login"
+        android:textAlignment="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/razlika_value"
+        android:textAlignment="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+
+</com.google.android.material.circularreveal.CircularRevealGridLayout>

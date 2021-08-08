@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_fname" translatable="false">Enter First Name</string>
+    <string name="hint_lname" translatable="false">Enter Last Name</string>
+    <string name="hint_bank">Enter Bank</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="btn_prijava">Login</string>
+    <string name="stanje">State</string>
+    <string name="Unos">Input</string>
+    <string name="Liste">Lists</string>
+    <string name="Profil">Profile</string>
+    <string name="Prihod">Earning</string>
+    <string name="Rashod">Expense</string>
+    <string name="UnosPR">Enter New Transaction</string>
+    <string name="Naslov">Caption</string>
+    <string name="Kolicina">Value</string>
+    <string name="Opis">Description</string>
+    <string name="DodajUListu">Add</string>
+    <string name="Prihodi">Earnings</string>
+    <string name="Rashodi">Expenses</string>
+    <string name="Podaci">User Info</string>
+    <string name="Profil_ime">First Name</string>
+    <string name="Profil_prezime">Last Name</string>
+    <string name="Profil_banka">Bank</string>
+    <string name="Profil_izmeni">Change</string>
+    <string name="Profil_odjava">Logout</string>
+    <string name="Sacuvaj">Save</string>
+    <string name="PR">Transaction Info</string>
+    <string name="Odustani">Terminate</string>
+    <string name="Izmena">Change of  Information</string>
+    <string name="Razlika">Balance</string>
+    <string name="Novcanik">Wallet for RAF students</string>
+    <string name="stanjeRacuna">Account Balance</string>
+</resources>

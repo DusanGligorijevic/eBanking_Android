@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealGridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_rashod"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:alignmentMode="alignBounds"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/edit_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_columnSpan="2"
+        android:text="@string/PR"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:src="@drawable/ic_baseline_attach_money_24"
+        android:id="@+id/edit_image_profil"
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </ImageView>
+    <TextView
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:id="@+id/edit_naslov"
+        android:text="@string/Naslov"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:theme="@style/login"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:hint="@string/Naslov"
+        android:id="@+id/show_naslov_value"
+        android:textSize="30dp"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/edit_Kolicina"
+        android:textAlignment="center"
+        android:text="@string/Kolicina"
+        android:paddingTop="30dp"
+        android:textSize="30dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/show_kolicina_value"
+        android:hint="@string/Kolicina"
+        android:paddingTop="30dp"
+        android:textSize="30dp"
+        android:inputType="number"
+        android:layout_width="200dp"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/edit_opis"
+        android:paddingTop="30dp"
+        android:layout_columnSpan="2"
+        android:text="@string/Opis"
+        android:textSize="30dp"
+        android:height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </TextView>
+    <TextView
+        android:visibility="gone"
+        android:background="@drawable/edittextborder"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:layout_columnSpan="2"
+        android:id="@+id/show_opis_value"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </TextView>
+    <ImageView
+        android:layout_columnSpan="2"
+        android:paddingTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/show_play"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"/>
+    <ImageView
+        android:layout_columnSpan="2"
+        android:visibility="gone"
+        android:id="@+id/show_pause"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_baseline_pause_24"/>
+
+</com.google.android.material.circularreveal.CircularRevealGridLayout>
